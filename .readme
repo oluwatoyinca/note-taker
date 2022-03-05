@@ -1,0 +1,18 @@
+This is a simple command line note taker app.
+You can add, remove, read and list notes using command line.
+
+Using Application with Command Line
+    Adding a note:
+        Run " node app.js add --title="Budget" --body="5k for tomatoes" "
+        Requirements:
+            Title and body are required
+            Duplicate notes can not be added
+
+    Reading a note:
+        Run " node app.js read --title="Budget" "
+
+    Listing notes:
+        Run " node app.js list "
+
+    Removing a note:
+        Run " node app.js remove --title="Budget" "
